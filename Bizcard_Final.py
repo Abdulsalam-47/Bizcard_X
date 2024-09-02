@@ -102,6 +102,7 @@ elif select == "Upload Data":
             st.success("TEXT IS EXTRACTED SUCCESSFULLY")
 
         df = pd.DataFrame(text_dict)
+        st.dataframe(df)
 
         if st.button("Save"):
             mydb = mysql.connector.connect(
