@@ -88,7 +88,7 @@ if select == "Home":
     st.write('### The main purpose of Bizcard is to automate the process of extracting key details from business card images, such as the name, designation, company, contact information, and other relevant data. By leveraging the power of OCR (Optical Character Recognition) provided by EasyOCR, Bizcard is able to extract text from the images.')
 
     st.write('### :blue[Technologies Used]')
-    st.write('### :white[Python]  :white[Streamlit] :white[EasyOCR]  :white[PIL(Python Imaging Library)]  :white[MySQL]')
+    st.write('### [Python]  [Streamlit] [EasyOCR]  [PIL(Python Imaging Library)]  [MySQL]')
 
 elif select == "Upload Data":
     img = st.file_uploader("Upload the Image", type=["png", "jpg", "jpeg"])
